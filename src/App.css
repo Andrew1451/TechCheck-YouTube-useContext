@@ -1,5 +1,8 @@
 .App {
   text-align: center;
+  background-color: rgb(21, 32, 43);
+  height: 100vh;
+  overflow: scroll;
 }
 
 .App-logo {
@@ -11,6 +14,41 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+}
+
+h1, p {
+  color: white;
+}
+
+a {
+  color: #01b7ee;
+  text-decoration: none;
+  font-size: 22px;
+  margin-right: 79px;
+  color: white;
+}
+
+button {
+  margin-left: 8px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+input:focus {
+  outline: none;
+}
+
+input {
+  margin-top: 38px;
+}
+
+section {
+  border: 2px solid #01b7ee;
+  width: 57%;
+  margin: 0 auto;
+  height: 38rem;
 }
 
 .App-header {
@@ -26,6 +64,17 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.Greeting {
+  border: 2px solid #01b7ee;
+  width: 56%;
+  margin: 63px auto;
+  height: 13rem;
+}
+
+.Greeting h2 {
+  color: white;
 }
 
 @keyframes App-logo-spin {
